@@ -1,4 +1,5 @@
-const pool = require('../db'); 
+const pool = require('../config/db');
+
 
 
 const getAllCertifications = async (req, res) => {
