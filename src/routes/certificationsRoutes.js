@@ -8,4 +8,8 @@ router.get('/:id', certificationController.getCertificationById);
 router.post('/', certificationController.createCertification);
 router.put('/:id', certificationController.updateCertification);
 router.delete('/:id', certificationController.deleteCertification);
+router.get('/teste', (req, res) => {
+  res.send("Rota de teste OK!");
+});
+
 module.exports = router;
