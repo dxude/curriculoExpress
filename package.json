@@ -1,15 +1,22 @@
 {
   "name": "curriculoex",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API serverless para gerenciar currículos",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon api/server.js"
+
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "serverless",
+    "vercel",
+    "express",
+    "postgresql",
+    "curriculo"
+  ],
+  "author": "Eduarda Veloso",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
