@@ -23,4 +23,9 @@ app.use('/skills', skillsRoutes);
 app.use('/projects', projectsRoutes);
 app.use('/certifications', certificationsRoutes);
 
+app.get("/", (req, res) => {
+  res.send("API está online!");
+});
+
+
 module.exports = app;
