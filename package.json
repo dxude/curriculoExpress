@@ -4,8 +4,8 @@
   "description": "API serverless para gerenciar currículos",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon api/server.js"
+    "start": "node src/app.js",
+    "dev": "nodemon api/app.js"
 
   },
   "keywords": [
